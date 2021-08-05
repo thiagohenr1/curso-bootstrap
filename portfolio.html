@@ -6,6 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <title>Portfólio</title>
+  <style>
+    section article figure {
+      padding: 25px;
+    }
+
+    header {
+      padding: 10px;
+    }
+
+    header div ul li {
+      font-size: 20px;
+    }
+  </style>
 </head>
 
 <body>
@@ -37,13 +50,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfólio</a>
+            <a class="nav-link text-dark" href="#">Portfólio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link text-dark" href="#">Contato</a>
           </li>
         </ul>
       </div>
@@ -59,7 +72,7 @@
     <article class="carousel-inner">
       <!--Começo Imagens do Banner-->
       <figure class="carousel-item active">
-        <img src="https://fakeimg.pl/500x200/" class="d-block w-100" alt="Banner 1">
+        <img src="https://fakeimg.pl/500x200/" class="d-block w-100 rounded-lg" alt="Banner 1">
       </figure>
       <figure class="carousel-item">
         <img src="https://fakeimg.pl/500x200/" class="d-block w-100" alt="Banner 2">
@@ -83,6 +96,113 @@
     <!--Final Botões de Ação-->
   </section>
   <!--Final do Carousel-->
+
+  <!--Começo Main-->
+  <main class="mt-4 mb-5">
+    <!-- Container Albuns-->
+    <div class="container">
+      <!-- Row -->
+      <div class="row">
+        <!-- Card -->
+        <section class="col-sm-4">
+          <article class="card">
+            <img src="https://fakeimg.pl/300/" class="card-img-top" alt="Baby">
+            <!-- Body -->
+            <div class="card-body">
+              <h5 class="card-title">Baby</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Veja Mais!</a>
+            </div>
+            <!-- Final Body -->
+          </article>
+        </section>
+        <!-- Final Card -->
+
+        <!-- Card -->
+        <section class="col-sm-4">
+          <article class="card">
+            <img src="https://fakeimg.pl/300/" class="card-img-top" alt="Models">
+            <!-- Body -->
+            <div class="card-body">
+              <h5 class="card-title">Models</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Veja Mais!</a>
+            </div>
+            <!-- Final Body -->
+          </article>
+        </section>
+        <!-- Final Card -->
+
+        <!-- Card -->
+        <section class="col-sm-4">
+          <article class="card">
+            <img src="https://fakeimg.pl/300/" class="card-img-top" alt="Family">
+            <!-- Body -->
+            <div class="card-body">
+              <h5 class="card-title">Family</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Veja Mais!</a>
+            </div>
+            <!-- Final Body -->
+          </article>
+        </section>
+        <!-- Final Card -->
+      </div>
+      <!-- Final Row -->
+    </div>
+    <!-- Final Container Albuns-->
+  </main>
+  <!--Final Main-->
+
+  <!--Footer-->
+  <footer class="container-fluid text-dark bg-light">
+    <!--Links-->
+    <div class="row pt-3 pb-3">
+      <!--Links Album-->
+      <section class="col-md-5">
+        <h5>Album</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-dark">Baby</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-dark">Models</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-dark">Family</a>
+          </li>
+        </ul>
+      </section>
+      <!--Final Album-->
+
+      <!--Links Contato-->
+      <section class="col-md-5">
+        <h5>Contato</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="tel:+5511999999999" class="nav-link text-dark">Tel: (11) 9 9999-9999</a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Quero%20saber%20sobre%20o%20curso!"
+              target="_blank" class="nav-link text-dark">WhatsApp:
+              (11) 9 9999-9999</a>
+          </li>
+        </ul>
+      </section>
+      <!--Final Contato-->
+
+      <!--Link Voltar-->
+      <section>
+        <a href="#" class="btn btn-dark">Voltar ao Topo!</a>
+      </section>
+      <!--Final Voltar-->
+    </div>
+    <!--Final Links-->
+  </footer>
+  <!--Final Footer-->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="./assets/js/jquery-3.5.1.slim.min.js"></script>
